@@ -68,7 +68,7 @@ public class DemoApplicationTests {
 		}
 
 	}
-	public Integer soustraction(Integer a, Integer b)
+	public Integer soustraction2(Integer a, Integer b)
 	    {
 		Integer somme;
 		somme = a - b;
@@ -78,7 +78,7 @@ public class DemoApplicationTests {
 	@Test
 	public void soustraction_should_return()
 	{
-		Integer somme = soustraction(2, 3); 
+		Integer somme = soustraction2(2, 3); 
 		if (somme < 5) {
    		 assertTrue( true );
 		} else {
