@@ -20,7 +20,7 @@ public class DemoApplicationTests {
 	}
 
 
-    private static Logger logger = Logger.getLogger(AppTest.class);
+    private static Logger logger = Logger.getLogger(DemoApplicationTests.class);
   
   @Test
     public void shouldAnswerWithTrue()
