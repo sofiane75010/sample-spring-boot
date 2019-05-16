@@ -68,5 +68,22 @@ public class DemoApplicationTests {
 		}
 
 	}
+	public Integer soustraction(Integer a, Integer b)
+	    {
+		Integer somme;
+		somme = a - b;
+	        return somme;
+	   }
+	
+	@Test
+	public void soustraction_should_return()
+	{
+		Integer somme = soustraction(2, 3); 
+		if (somme < 5) {
+   		 assertTrue( true );
+		} else {
+		assertTrue( false );
+		}
 
+	}
 }
