@@ -42,7 +42,7 @@ public class DemoApplicationTests {
 	{
 		Integer somme = addition(2, 3); 
 		if (somme == 5) {
-   		 assertTrue( true );
+   		 assertTrue( false );
 		} else {
 		assertTrue( false );
 		}
